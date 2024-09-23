@@ -29,7 +29,7 @@ p{
     line-height: 1.5;
 }
 
-a:link {
+a:link, a:visited {
     color: blue;
 }
 
@@ -43,11 +43,6 @@ a:active {
     text-decoration: underline;
 }
 
-a:visited {
-    color: lightgreen;
-    text-decoration: none;
-}
-
 div.text {
     padding: 10px;
     background-color: white;
@@ -58,12 +53,12 @@ div.links {
     background-color: lightpink;
 }
 
-/* table{
+ table{
     width: 100%;
-    /* border-collapse: collapse; 
+     border-collapse: collapse; 
 }
 
 td {
     border: 1px solid red;
     padding: 10px;
-}*/
+}
