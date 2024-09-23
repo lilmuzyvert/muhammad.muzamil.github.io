@@ -25,12 +25,12 @@ h3 {
 
 p{
     font-size: 14pt;
-    color: black;
+    color: darkolivegreen;
     line-height: 1.5;
 }
 
 a:link {
-    color: cyan;
+    color: blue;
     /*text-decoration: none;*/
 }
 
