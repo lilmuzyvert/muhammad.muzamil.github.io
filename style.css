@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 12pt;
+    background-color: beige;
+    color: brown;
+    margin: 15pt;
+}
+
+h1 {
+    font-size: 24pt;
+    color: forestgreen;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 20pt;
+    color: burlywood
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 18pt;
+    color: gray
+}
+
+p{
+    font-size: 14pt;
+    color: black;
+    line-height: 1.5;
+}
+
+a:link {
+    color: cyan;
+    /*text-decoration: none;*/
+}
+
+a:hover {
+    color: darkcyan;
+    text-decoration: underline;
+}
+
+a:active {
+    color: red;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: lightgreen;
+    text-decoration: none;
+}
+
+div.text {
+    padding: 10px;
+    background-color: white;
+}
+
+div.links {
+    padding: 10px;
+    background-color: lightpink;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid red;
+    padding: 10px;
+}
