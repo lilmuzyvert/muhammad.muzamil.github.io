@@ -31,7 +31,6 @@ p{
 
 a:link {
     color: blue;
-    /*text-decoration: none;*/
 }
 
 a:hover {
@@ -59,12 +58,12 @@ div.links {
     background-color: lightpink;
 }
 
-table{
+/* table{
     width: 100%;
-    border-collapse: collapse;
+    /* border-collapse: collapse; 
 }
 
 td {
     border: 1px solid red;
     padding: 10px;
-}
+}*/
