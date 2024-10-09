@@ -3,14 +3,14 @@ h1 {
 }
 
 .image-container {
-    display: flex;
-    justify-content: center; /* Centers the image horizontally */
-    margin-top: 20px; /* Optional spacing above the image */
-}
-img {
-    max-width: 100%; /* Ensures the image is responsive */
-    height: auto; /* Maintains the aspect ratio */
-}
+            display: flex;
+            justify-content: center; /* Centers the image horizontally */
+            margin-top: 20px; /* Optional spacing above the image */
+        }
+        img {
+            max-width: 100%; /* Ensures the image is responsive */
+            height: auto; /* Maintains the aspect ratio */
+        }
 
 /* Navigation Menu Styles */
 .nav-menu {
