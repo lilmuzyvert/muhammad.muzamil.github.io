@@ -12,55 +12,6 @@ h1 {
             height: auto; /* Maintains the aspect ratio */
         }
 
-/* Navigation Menu Styles */
-.nav-menu {
-    list-style-type: none; /* Remove bullets */
-    padding: 0; /* Remove default padding */
-    margin: 0; /* Remove default margin */
-    background-color: #333; /* Background color for nav */
-    float: right; /* Float menu to the right */
-}
-
-.nav-menu > li {
-    display: inline; /* Display items in a line */
-}
-
-.nav-menu > li > a {
-    text-decoration: none; /* Remove underline */
-    color: white; /* Text color */
-    padding: 14px 20px; /* Padding for links */
-    display: inline-block; /* Make links clickable */
-}
-
-.nav-menu > li > a:hover {
-    background-color: #555; /* Hover effect */
-}
-
-/* Submenu Styles */
-.submenu {
-    display: none; /* Hide sub-menu by default */
-    position: absolute; /* Position submenu */
-    background-color: #333; /* Background for submenu */
-    z-index: 1; /* Stay on top */
-}
-
-.nav-menu > li:hover .submenu {
-    display: block; /* Show submenu on hover */
-}
-
-.submenu li {
-    display: block; /* Stack submenu items */
-}
-
-.submenu li a {
-    padding: 10px 15px; /* Padding for submenu links */
-}
-
-.submenu li a:hover {
-    background-color: #555; /* Hover effect for submenu */
-}
-
-
 /* Style for the modal */
 .modal {
     display: none; /* Hidden by default */
@@ -73,18 +24,13 @@ h1 {
     background-color: rgba(0, 0, 0, 0.8); /* Black background with opacity */
 }
 
-
-
-
-/* Modal content */
 .modal-content {
     margin: auto;
     display: block;
-    max-width: 90%; /* Maximum size of enlarged image */
+    max-width: 90%;
     height: auto;
 }
 
-/* Close button */
 .close {
     position: absolute;
     top: 15px;
@@ -95,21 +41,44 @@ h1 {
     cursor: pointer;
 }
 
-body,html{height:100%;}
-nav{
-  background-color: #b48f47;
-  position: absolute;
-  width: 150px;
-  height: 20%;
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
-nav a
-{
-  padding: 15px;
-  display: block;
-  font-size: 25pt;
-  color: #58355E;
+
+#navbar {
+    background-color: #333;
+    width: 35%; /* Set the desired width */
+    margin: 0 auto; /* Center the navbar */
+    display: flex;
+    justify-content: center; /* Center items within the navbar */
+    border-radius: 10px; /* Optional: adds rounded corners */
 }
-nav a:hover
-{
-  color: #f1f1f1;
+
+#navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
 }
+
+#navbar li {
+    flex: 1;
+}
+
+#navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/*#navbar a:hover {
+    background-color: #575757;
+}
+
+#navbar a.active {
+    background-color: #39376e;
+}*/
