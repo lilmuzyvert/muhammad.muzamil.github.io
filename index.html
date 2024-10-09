@@ -1,24 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Muhammad Muzamil</title>
+    <meta charset="UTF-8">
+    <title>Muhammad Muzamil</title>
+    <link rel="stylesheet" href="lab5style.css">
 </head>
 <body>
+  <div id="Container">
+    <nav>
+      <ul class="nav-menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="page1.html">About Me</a></li> <!-- Links to another page -->
+          <li><a href="page2.html">Projects</a></li> <!-- Links to another page -->
+          <li>
+              <a href="#">More</a>
+              <ul class="submenu">
+                  <li><a href="#contact">Contact</a></li>
+                  <li><a href="#gallery">Gallery</a></li>
+              </ul>
+          </li>
+      </ul>
+  </nav>
+  </div>
   <script src="labfive.js" defer></script>
-  <button onclick = 'userName()'>Please Enter Your Name Here.</button>
+  <button onclick='userName()'>Please Enter Your Name Here.</button>
   <h2 id="welcomeMessage"></h2>
-  </body>
-  </html> 
 
-  <html>
-    <head>
-      <body>
-<h1>Muhammad Muzamil</h1>
-<img id="Me" src="/Users/muhammadmuzamil/Documents/GitHub/muhammad.muzamil.github.io/Muhammad.png" alt='Muhammad Holding a salmon'>
+  <h1>Muhammad Muzamil</h1>
+  <img id='myImage' src="myImage.png" alt='Muhammad Holding a salmon'>
 
-<br>
-<br>
-
+  <div id='myModal' class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="enlargedImg">
+  </div>
+  <br>
+  <br>
+  
 <h2>Educational History</h2>
 <style>
     table{
