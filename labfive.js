@@ -6,7 +6,7 @@ function userName() {
     }
 }
 
-// image adjusting
+
 var modal = document.getElementById('myModal');
 var img = document.getElementById('myImage');
 var modalImg = document.getElementById('enlargedImg');
@@ -18,9 +18,8 @@ img.onclick = function() {
 
 var close = document.getElementsByClassName('close')[0];
 
-// Fix typo in function declaration
 close.onclick = function() {
-    modal.style.display = 'none'; // Corrected to 'function()'
+    modal.style.display = 'none';
 }
 
 window.onclick = function(event) {
@@ -33,20 +32,17 @@ var navbarLinks = document.querySelectorAll('#navbar a');
 
 navbarLinks.forEach(link => {
     link.addEventListener('click', function() {
-        // Remove active class from all links
         navbarLinks.forEach(item => item.classList.remove('active'));
-        // Add active class to the clicked link
         this.classList.add('active');
     });
 
-    // Set hover effects using onmouseover and onmouseout
     link.addEventListener('mouseover', function() {
-        this.style.backgroundColor = 'gray'; // Change to hover color
+        this.style.backgroundColor = 'gray'; 
     });
 
     link.addEventListener('mouseout', function() {
         if (!this.classList.contains('active')) {
-            this.style.backgroundColor = ''; // Reset to default
+            this.style.backgroundColor = ''; 
         }
     });
 });

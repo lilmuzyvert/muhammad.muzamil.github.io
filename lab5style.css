@@ -4,24 +4,24 @@ h1 {
 
 .image-container {
             display: flex;
-            justify-content: center; /* Centers the image horizontally */
-            margin-top: 20px; /* Optional spacing above the image */
+            justify-content: center; 
+            margin-top: 20px; 
         }
         img {
-            max-width: 100%; /* Ensures the image is responsive */
-            height: auto; /* Maintains the aspect ratio */
+            max-width: 100%; 
+            height: auto; 
         }
 
-/* Style for the modal */
+
 .modal {
-    display: none; /* Hidden by default */
+    display: none; 
     position: fixed;
-    z-index: 1; /* Stay on top */
+    z-index: 1; 
     left: 0;
     top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    background-color: rgba(0, 0, 0, 0.8); /* Black background with opacity */
+    width: 100%; 
+    height: 100%; 
+    background-color: rgba(0, 0, 0, 0.8); 
 }
 
 .modal-content {
@@ -49,11 +49,11 @@ body {
 
 #navbar {
     background-color: #333;
-    width: 35%; /* Set the desired width */
-    margin: 0 auto; /* Center the navbar */
+    width: 35%; 
+    margin: 0 auto; 
     display: flex;
-    justify-content: center; /* Center items within the navbar */
-    border-radius: 10px; /* Optional: adds rounded corners */
+    justify-content: center; 
+    border-radius: 10px; 
 }
 
 #navbar ul {
@@ -74,11 +74,3 @@ body {
     padding: 14px 16px;
     text-decoration: none;
 }
-
-/*#navbar a:hover {
-    background-color: #575757;
-}
-
-#navbar a.active {
-    background-color: #39376e;
-}*/
