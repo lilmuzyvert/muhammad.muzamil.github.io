@@ -9,7 +9,7 @@ function userName() {
 // image adjusting
 var modal = document.getElementById('myModal');
 var img = document.getElementById('myImage');
-var modalImg = document.getElementById('enlargedImg'); // Corrected ID
+var modalImg = document.getElementById('enlargedImg');
 
 img.onclick = function() {
     modal.style.display = 'block';
