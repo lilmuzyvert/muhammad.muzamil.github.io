@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,html{height:100%;}
+nav{
+  background-color: #f79F79;
+  position: absolute;
+  width: 150px;
+  height: 100%;
+}
+nav a
+{
+  padding: 15px;
+  display: block;
+  font-size: 25pt;
+  color: #58355E;
+}
+nav a:hover
+{
+  color: #f1f1f1;
+}
+
+/* Step E */
+
+/* Dropdown Button */
+.dropbtn {
+    font-size: 20px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+	float: right;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    display: block; /*block display allows vertical item alignment*/
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
