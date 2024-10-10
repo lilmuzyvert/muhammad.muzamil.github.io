@@ -6,7 +6,6 @@ function userName() {
     }
 }
 
-
 var modal = document.getElementById('myModal');
 var img = document.getElementById('myImage');
 var modalImg = document.getElementById('enlargedImg');
