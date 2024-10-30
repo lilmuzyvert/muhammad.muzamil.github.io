@@ -82,9 +82,3 @@ function submitForm() {
     alert("Form Submitted! I will contact you soon!");
 }
 
-// Optional: Function to clear localStorage if needed
-function clearStorage() {
-    localStorage.removeItem('contactFormData');
-    alert("Local storage cleared!");
-}
-
