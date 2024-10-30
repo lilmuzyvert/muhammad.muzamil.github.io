@@ -1,28 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <!-- Meta tags and linking to external CSS -->
     <meta charset="UTF-8">
     <section id="home"></section>
     <title>Muhammad Muzamil</title>
-    <link rel="stylesheet" href="lab5style.css">
+    <link rel="stylesheet" href="Lab6Clean.css"> <!-- Link to external CSS file -->
 </head>
 <body>
   
-  <script src="labfive.js" defer></script>
-  <br><br>
+  <!-- Link to external JavaScript file -->
+  <script src="Lab6New.js" defer></script>
+  
+  <!-- Button to display a personalized welcome message -->
   <button onclick='userName()'>Press here for your own hello message!</button>
+  
+  <!-- Placeholder for welcome message -->
   <h2 id="welcomeMessage"></h2>
 
+  <!-- Main heading -->
   <h1>Muhammad Muzamil</h1>
+
+  <!-- Image container with an image and modal functionality -->
   <div class="image-container">
-  <img id='myImage' src="myImage.png" alt='Muhammad Holding a salmon'>
-</div>
-  <div id='myModal' class="modal">
-      <span class="close">&times;</span>
-      <img class="modal-content" id="enlargedImg">
+    <img id='myImage' src="myImage.png" alt='Muhammad Holding a salmon'>
   </div>
+
+  <!-- Modal for enlarged image display -->
+  <div id='myModal' class="modal">
+      <span class="close">&times;</span> <!-- Close button for modal -->
+      <img class="modal-content" id="enlargedImg"> <!-- Enlarged image will appear here -->
+  </div>
+
   <br>
   <br>
+
+  <!-- Navigation bar for easy page navigation -->
   <nav id="navbar">
     <ul>
         <li><a href="#Back to Top">Back to Top</a></li>
@@ -30,15 +43,19 @@
         <li><a href="#program">My Program</a></li>
         <li><a href="#more">View More</a></li>
     </ul>
-</nav>
-<script src="labfive.js"></script>
-</nav>
-<br>
-<br>
-<section id="Education"></section>
-<h2>Educational History</h2>
-</section>
-<style>
+  </nav>
+
+  <!-- Script reference again, though this seems redundant with the earlier script tag -->
+  <script src="Lab6New.js"></script>
+  
+  <br><br>
+
+  <!-- Section for educational history -->
+  <section id="Education"></section>
+  <h2>Educational History</h2>
+  
+  <!-- Inline CSS for the table (Note: Consider moving to external CSS) -->
+  <style>
     table{
         border-collapse: collapse;
         width: 100%;
@@ -52,42 +69,44 @@
     tr:nth-child(even) {
         background-color: #dddddd;
     }
-</style>
-</head>
-<body>
+  </style>
 
-<table>
-  <tr>
-    <th>School</th>
-    <th>Year Start</th>
-    <th>Year End</th>
-  </tr>
-  <tr>
-    <td>Corvette Junior Public School</td>
-    <td>2007</td>
-    <td>2015</td>
-  </tr>
-  <tr>
-    <td>Robert Service Senior Public School</td>
-    <td>2015</td>
-    <td>2016</td>
-  </tr>
-  <tr>
-    <td>Winston Churchill Collegiate Institute</td>
-    <td>2016</td>
-    <td>2019</td>
-  </tr>
-  <tr>
+  <!-- Table displaying educational background -->
+  <table>
+    <tr>
+      <th>School</th>
+      <th>Year Start</th>
+      <th>Year End</th>
+    </tr>
+    <tr>
+      <td>Corvette Junior Public School</td>
+      <td>2007</td>
+      <td>2015</td>
+    </tr>
+    <tr>
+      <td>Robert Service Senior Public School</td>
+      <td>2015</td>
+      <td>2016</td>
+    </tr>
+    <tr>
+      <td>Winston Churchill Collegiate Institute</td>
+      <td>2016</td>
+      <td>2019</td>
+    </tr>
+    <tr>
         <td>Toronto Metropolitan University</td>
         <td>2019</td>
         <td>Currently Enrolled</td>
     </tr>
-</table>
+  </table>
 
-<section id="program">
-<h2 style="background-color:dodgerblue">Business Technology Management</h2>
-</section>
-<p>I am currently enrolled in Business Technology Management at the Toronto Metropolitan University.<br>
+  <!-- Section for program details -->
+  <section id="program">
+    <h2 style="background-color:dodgerblue">Business Technology Management</h2>
+  </section>
+  
+  <!-- Describes the classes and interests -->
+  <p>I am currently enrolled in Business Technology Management at the Toronto Metropolitan University.<br>
     The classes I am currently enrolled in are:
     <ul>
         <li>ITM 415</li>
@@ -98,7 +117,7 @@
       </ul>
       <br>
     The class I enjoy the most with my current schedule is ITM 618, since I have found a particular interest in coding.<br>
-    I also enjoyed ITM 200, which is a class based on Python.<br><br>My top 3 classes would be
+    I also enjoyed ITM 200, which is a class based on Python.<br><br>My top 3 classes would be:
     <ol>
         <li>ITM 200</li>
         <li>ITM 618</li>
@@ -106,27 +125,93 @@
       </ol>
       <br>In the future, I would like to do more work related
     to Python or HTML5 since I have a fond understanding and eagerness to learn the programming language.
-</p>
+  </p>
 
-<h2 style="background-color:tomato">Educational Awards</h2>
+  <!-- Section for educational awards -->
+  <h2 style="background-color:tomato">Educational Awards</h2>
+  <p>Some Educational awards that I have received are Honour roll when I was at <i>Winston Churchill Collegiate Institute.</i> I also received an entrance scholarship from <i>Toronto Metropolitan University</i></p>
 
-<p>Some Educational awards that I have received are Honour roll when I was at <i>Winston Churchill Collegiate Institute.</i> I also received an entrance scholarship from <i>Toronto Metropolitan University</i></p>
-
-<h2 style="background-color:aquamarine">Extracurricular Activities</h2>
-</section>
-<p>An Extracurricular Activity that I found myself particularly interested in was Photography and film making.<br><br>It started back when I was in high school, and I had a class for photoshop.
+  <!-- Section for extracurricular activities -->
+  <h2 style="background-color:aquamarine">Extracurricular Activities</h2>
+  <p>An Extracurricular Activity that I found myself particularly interested in was Photography and film making.<br><br>It started back when I was in high school, and I had a class for photoshop.
     In that class, we had to take photos and photoshop them to fit the requirements of a rubric.<br>After that class, I found myself doing photo and video work outside of school as a hobby.<br>I have
     successfully turned it into a business where I take pictures or videos for clients. I have a couple clients here at the <i>Toronto Metropolitan University</i>.
+  </p>
 
-    <br>
-    <br>
-    <section id="more"></section>
-    <h1>View more information</h1>
-    <nav id="navbar">
-    <ul>
-      <li><a href="https://www.instagram.com/muzy.arw/" target="_blank">Instagram</a></li>
-      <li><a href="https://www.linkedin.com/in/muhammad-muzamil-47b960210/" target="_blank">LinkedIn</a></li>
-    </ul>
-    </nav>
+  <!-- New Contact Form Section -->
+  <section id="contact">
+    <h2>Contact Me!</h2>
+    
+    <!-- Beginning of the contact form -->
+    <form id="contactForm">
+        <!-- viewers name input field -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name"><br>
+
+        <!-- viewers email input field -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email"><br>
+
+        <!-- Radio buttons for selecting gender -->
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="Other">
+        <label for="other">Other</label><br>
+
+        <!-- Dropdown menu for selecting industry -->
+        <label for="industry">Which industry do you primarily work in, related to business and technology?</label><br>
+        <select id="industry" name="industry">
+          <option value="Information Technology">Information Technology (IT)</option>
+          <option value="Finance">Finance</option>
+          <option value="E-commerce">E-commerce</option>
+          <option value="Consulting">Consulting</option>
+          <option value="Healthcare Technology">Healthcare Technology</option>
+          <option value="Manufacturing">Manufacturing</option>
+          <option value="Telecommunications">Telecommunications</option>
+          <option value="Other">Other</option>
+        </select>
+        <br>
+
+        <!-- Checkbox options for current role -->
+        <label for="role">Which best describes your current role? (Select all that apply)</label><br>
+        <input type="checkbox" id="student" name="role" value="Student">
+        <label for="student">Student</label><br>
+        <input type="checkbox" id="entryLevel" name="role" value="Entry-level Professional">
+        <label for="entryLevel">Entry-level Professional</label><br>
+        <input type="checkbox" id="midLevel" name="role" value="Mid-level Professional">
+        <label for="midLevel">Mid-level Professional</label><br>
+        <input type="checkbox" id="seniorLevel" name="role" value="Senior-level Professional">
+        <label for="seniorLevel">Senior-level Professional</label><br>
+        <input type="checkbox" id="executive" name="role" value="Executive">
+        <label for="executive">Executive</label><br>
+        <input type="checkbox" id="entrepreneur" name="role" value="Entrepreneur">
+        <label for="entrepreneur">Entrepreneur</label><br>
+        <input type="checkbox" id="other" name="role" value="Other">
+        <label for="other">Other</label><br>
+
+        <!-- Text area for additional comments -->
+        <label for="comments">Comments:</label><br>
+        <textarea id="comments" name="comments" placeholder="Enter your comments here"></textarea><br>
+
+        <!-- Submit and reset buttons -->
+        <button type="button" onclick="submitForm()">Submit</button>
+        <button type="reset">Clear</button>
+    </form>
+  </section>
+  <!-- End of Contact Form Section -->
+
+    <!-- More Information Section -->
+
+  <section id="more"></section>
+  <h1>View more information</h1>
+  <nav id="navbar">
+  <ul>
+    <li><a href="https://www.instagram.com/muzy.arw/" target="_blank">Instagram</a></li>
+    <li><a href="https://www.linkedin.com/in/muhammad-muzamil-47b960210/" target="_blank">LinkedIn</a></li>
+  </ul>
+  </nav>
 </body>
 </html>
