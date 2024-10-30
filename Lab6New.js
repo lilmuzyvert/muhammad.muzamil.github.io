@@ -11,11 +11,14 @@ var modal = document.getElementById('myModal');
 var img = document.getElementById('myImage');
 var modalImg = document.getElementById('enlargedImg');
 
+//function to enlarge the image when selected.
+
 img.onclick = function() {
     modal.style.display = 'block';
     modalImg.src = 'enlarged.png';
 }
 
+// close button (X)
 var close = document.getElementsByClassName('close')[0];
 
 close.onclick = function() {
@@ -29,7 +32,7 @@ window.onclick = function(event) {
 }
 
 var navbarLinks = document.querySelectorAll('#navbar a');
-
+// navigation bar functions to look different when selected, hovering, etc.
 navbarLinks.forEach(link => {
     link.addEventListener('click', function() {
         navbarLinks.forEach(item => item.classList.remove('active'));
@@ -80,5 +83,11 @@ function submitForm() {
 
     // Notify the user that the form has been submitted
     alert("Form Submitted! I will contact you soon!");
+}
+
+    // Function to clear localStorage if needed
+function clearStorage() {
+    localStorage.removeItem('contactFormData');
+    alert("Local storage cleared!");
 }
 
